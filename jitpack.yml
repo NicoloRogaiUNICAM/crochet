@@ -2,6 +2,8 @@ jdk:
   - openjdk8
 before_install:
   - apt-get install build-essential
+  - ls -la
+  - pwd
 env:
   JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64/jre"
   
