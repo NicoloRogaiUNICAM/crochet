@@ -1,8 +1,6 @@
 jdk:
   - openjdk8
 before_install:
-  - apt-get install build-essential
-  - echo "Running a custom install command"
   - whoami
 env:
   JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64/jre"
