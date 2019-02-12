@@ -1,6 +1,7 @@
 jdk:
   - openjdk8
 before_install:
-  - sudo apt-get install build-essential
+  - apt-get install build-essential
+  - make
 env:
   JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64/jre"
