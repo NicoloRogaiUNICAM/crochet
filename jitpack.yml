@@ -1,7 +1,7 @@
 jdk:
   - openjdk8
 before_install:
-  - echo "this is foo"
+  - cat /etc/issue
 env:
   JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64/jre"
   
