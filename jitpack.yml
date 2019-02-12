@@ -4,6 +4,5 @@ before_install:
   - apt-get install build-essential
 install:
    - echo "Running a custom install command"
-   - make
 env:
   JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64/jre"
