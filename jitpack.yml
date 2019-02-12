@@ -1,6 +1,6 @@
 jdk:
   - openjdk8
 before_install:
-  - which bash
+  - which make
 env:
   JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64/jre"
